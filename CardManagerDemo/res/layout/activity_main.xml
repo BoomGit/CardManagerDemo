@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cpucard.library.MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Content"
+        android:layout_width="fill_parent"
+        android:layout_height="100sp"
+        android:text="@string/hello_world"
+        android:scrollHorizontally="true"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ReadBalance"
+            android:layout_width="fill_parent"
+            android:layout_height="60sp"
+            android:layout_weight="1"
+            android:text="读余额"/>
+
+        <Button
+            android:id="@+id/MinusFee"
+            android:layout_width="fill_parent"
+            android:layout_height="60sp"
+            android:layout_weight="1"
+            android:text="扣费"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/RegetTac"
+            android:layout_width="fill_parent"
+            android:layout_height="60sp"
+            android:layout_weight="1"
+            android:text="重获tac"/>
+
+        <Button
+            android:id="@+id/ReadPSAMID"
+            android:layout_width="fill_parent"
+            android:layout_height="60sp"
+            android:layout_weight="1"
+            android:text="获取PSAMID"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/GetParameter"
+            android:layout_width="fill_parent"
+            android:layout_height="60sp"
+            android:layout_weight="1"
+            android:text="获取参数"/>
+
+    </LinearLayout>
+
+</LinearLayout>
